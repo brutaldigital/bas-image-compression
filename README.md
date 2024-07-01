@@ -10,14 +10,14 @@ Programmatic compression of images using existing algorithmscan be undertaken us
 3. Make the script executable `chmod+x .../lossy_compression.py`
  - Install [ImageMagick](http://www.imagemagick.org/script/index.php) `brew install imagemagick`
  - Install [Pillow](https://pillow.readthedocs.io/en/stable/) `python3 -m pip install pillow`
- - Install [Numba](https://numba.pydata.org/) `python3 -mpip install numba`
- - Install [NumPy](https://numpy.org/) `python3 -mpip install numpy`
+ - Install [Numba](https://numba.pydata.org/) `python3 -m pip install numba`
+ - Install [NumPy](https://numpy.org/) `python3 -m pip install numpy`
  - Install [openpyxl](https://openpyxl.readthedocs.io/en/stable/) `python3 -m pip install openpyxl`
 
 1\. Bulk resize
 ---------------
 
-To bulkresize all images in a directory, use Mac’s built-in [sips](https://ss64.com/osx/sips.html)tool. Navigate to the destination in Terminal and then run the followingscript:
+To bulkresize all images in a directory, use Mac’s built-in [sips](https://ss64.com/osx/sips.html) tool. Navigate to the destination in Terminal and then run the followingscript:
 
 `sips -Z 1200 \*.jpg`
 
